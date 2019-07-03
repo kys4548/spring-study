@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<typeAliases>
+		<typeAlias type="com.example.spring01.model.dto.MemberDTO"
+		alias="memberDto"/>
+		<!-- 풀경로 -> 줄임말  result받을때 사용하면 편리하다. -->
+	</typeAliases>
+
+</configuration>
+
