@@ -1,0 +1,14 @@
+톰캣의 3가지 구성요소
+
+-Coyote
+: HTTP 요청을 Coyote에서 받으면
+-Catalina
+: Catalina Servlet Contatiner에서 Doc Base를 찾고 WEB-INF/web.xml파일 내용 참조
+-Jasper
+: *.jsp 파일이 호출 될 때, Jasper JSP엔진이 Validation Check/ Compile
+
+Listener
+톰캣은 기본적으로 8080포트로 Listener지정
+http Listener: 80포트
+https Listener: 443 포트 
+server.xml에 설정되어 있다.
